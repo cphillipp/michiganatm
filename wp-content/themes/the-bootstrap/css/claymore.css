@@ -8,6 +8,7 @@ body.home .page-header 									{display:none;}
 #branding 												{height:142px; line-height:142px;}
 #header-image 											{margin:0; float:left;}
 #access 												{float:right; margin:52px 0 0;}
+.navbar 												{margin:0;}
 .navbar-inverse .navbar-inner 							{background:none; border:none; -webkit-box-shadow:0 0 0 #fff; -moz-box-shadow:0 0 0 #fff; box-shadow:0 0 0 #fff;}
 .navbar-inverse .brand, 
 .navbar-inverse .nav>li>a 								{color:#1cb434; text-shadow:0 0 0 #FFF; text-transform:uppercase; font-weight:bold;}
@@ -25,11 +26,15 @@ body.home .green 										{display:block;}
 }
 @media (max-width: 979px) and (min-width: 768px)		{
 #branding 												{height:auto;}
+#header-image 											{margin-bottom:3px;}
 #access 												{float:none; margin:0; clear:both;}
 .navbar-inverse .navbar-inner 							{background:#000;}
+.atm 													{width:229px;}
 }
 @media (max-width: 767px)								{
 #branding 												{height:auto;}
+#header-image 											{margin-bottom:3px;}
 #access 												{float:none; margin:0; clear:both;}
 .navbar-inverse .navbar-inner 							{background:#000;}
+.atm 													{width:229px;}
 }
