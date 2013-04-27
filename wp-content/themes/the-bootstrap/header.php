@@ -25,6 +25,7 @@
 	</head>
 	
 	<body <?php body_class(); ?>>
+		<div class="green"><div class="top-point"></div><div class="bottom-point"></div></div>
 		<div class="container">
 			<div id="page" class="hfeed row">
 				<?php tha_header_before(); ?>
