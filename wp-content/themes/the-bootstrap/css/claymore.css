@@ -29,16 +29,15 @@ body.home .green 										{display:block;}
 }
 @media (max-width: 979px) and (min-width: 768px)		{
 #branding 												{height:auto;}
-#header-image 											{margin-bottom:3px;}
 #access 												{float:none; margin:0; clear:both;}
 .navbar-inverse .navbar-inner 							{background:#000;}
 .atm 													{margin:0; width:242px;}
 }
 @media (max-width: 767px)								{
 #branding 												{height:auto;}
-#header-image 											{margin-bottom:3px;}
 #access 												{float:none; margin:0; clear:both;}
 .navbar-inverse .navbar-inner 							{background:#000;}
+.green 													{display:none;}
 .banner 												{display:none;}
 .atm 													{margin:0; width:242px;}
 }
