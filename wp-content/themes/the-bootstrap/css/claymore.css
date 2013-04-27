@@ -29,12 +29,12 @@ body.home .green 										{display:block;}
 #header-image 											{margin-bottom:3px;}
 #access 												{float:none; margin:0; clear:both;}
 .navbar-inverse .navbar-inner 							{background:#000;}
-.atm 													{width:229px;}
+.atm 													{width:242px;}
 }
 @media (max-width: 767px)								{
 #branding 												{height:auto;}
 #header-image 											{margin-bottom:3px;}
 #access 												{float:none; margin:0; clear:both;}
 .navbar-inverse .navbar-inner 							{background:#000;}
-.atm 													{width:229px;}
+.atm 													{width:242px;}
 }
