@@ -1,6 +1,17 @@
-#footer-sidebar 	{margin:0 auto; width:500px; overflow:hidden;}
-#footer-sidebar1 	{float:left; width:250px;}
-#footer-sidebar2 	{float:left; width:250px;}
-body>.container 	{margin:0 auto;}
-#page 				{padding:0;}
-#branding 			{height:100px;}
+#footer-sidebar 										{margin:0 auto; width:500px; overflow:hidden;}
+#footer-sidebar1 										{float:left; width:250px;}
+#footer-sidebar2 										{float:left; width:250px;}
+body>.container 										{margin:0 auto;}
+#page 													{padding:0;}
+#branding 												{height:100px;}
+#header-image 											{margin:0; line-height:100px;}
+#access 												{float:right;}
+@media (min-width: 1200px)								{
+
+}
+@media (max-width: 979px) and (min-width: 768px)		{
+#access 												{float:none;}
+}
+@media (max-width: 767px)								{
+#access 												{float:none;}
+}
