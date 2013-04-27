@@ -1097,6 +1097,14 @@ function _the_bootstrap_version() {
 	return $theme_version;
 }
 
+// CUSTOM SHORTCODE
+function custom_col() {
+
+	// Code
+	return '<div class="shortcode1-3"></div>';
+}
+add_shortcode( 'column', 'custom_col' );
+
 
 /* End of file functions.php */
 /* Location: ./wp-content/themes/the-bootstrap/functions.php */
