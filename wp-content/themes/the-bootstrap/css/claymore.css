@@ -4,14 +4,16 @@
 body>.container 										{margin:0 auto;}
 #page 													{padding:0;}
 #branding 												{height:100px;}
-#header-image 											{margin:0; line-height:100px;}
-#access 												{float:right;}
+#header-image 											{margin:0; line-height:100px; float:left;}
+#access 												{float:right; margin:30px 0;}
 @media (min-width: 1200px)								{
 
 }
 @media (max-width: 979px) and (min-width: 768px)		{
-#access 												{float:none;}
+#branding 												{height:auto;}
+#access 												{float:none; margin:0; clear:both;}
 }
 @media (max-width: 767px)								{
-#access 												{float:none;}
+#branding 												{height:auto;}
+#access 												{float:none; margin:0; clear:both;}
 }
