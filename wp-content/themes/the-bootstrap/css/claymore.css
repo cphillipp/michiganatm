@@ -17,8 +17,8 @@ body.home .page-header 									{display:none;}
 .navbar-inverse .nav .active>a:focus 					{color:#21784f; background:transparent; -webkit-box-shadow:0 0 0 #fff; -moz-box-shadow:0 0 0 #fff; box-shadow:0 0 0 #fff;}
 .green 													{display:none; margin:0; padding:0; width:100%; height:365px; position:absolute; top:100px; background:#199e2c; border-top:3px solid #b7b7b7; border-bottom:3px solid #b7b7b7; -webkit-box-shadow:inset 0 0 40px #fff; -moz-box-shadow:inset 0 0 40px #fff; box-shadow:inset 0 0 40px #fff;}
 body.home .green 										{display:block;}
-.green .top-point 										{margin:0 0 0 -218.5px; padding:0; width:437px; height:33px; position:absolute; top:-33px; left:50%;}
-.green .bottom-point									{margin:0 0 0 -371.5px; padding:0; width:743px; height:54px; position:absolute; bottom:-54px; left:50%;}
+.green .top-point 										{margin:0 0 0 -218.5px; padding:0; width:437px; height:33px; position:absolute; top:-33px; left:50%; background:url('../img/top-point.png') no-repeat;}
+.green .bottom-point									{margin:0 0 0 -371.5px; padding:0; width:743px; height:54px; position:absolute; bottom:-54px; left:50%; background:url('../img/bottom-point.png') no-repeat;}
 @media (min-width: 1200px)								{
 
 }
