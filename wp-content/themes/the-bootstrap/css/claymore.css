@@ -37,7 +37,6 @@ body.home .green 										{display:block;}
 #branding 												{height:auto;}
 #access 												{float:none; margin:0; clear:both;}
 .navbar-inverse .navbar-inner 							{background:#000;}
-.green 													{display:none;}
+body.home .green										{display:none;}
 .banner 												{display:none;}
-.atm 													{margin:0; width:242px;}
 }
