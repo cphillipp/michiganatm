@@ -357,8 +357,8 @@ msgstr "次の写真 &raquo;"
 
 #@ the-bootstrap
 #: inc/the-bootstrap-image-meta-widget.php:28
-msgid "The Bootstrap Image Meta Widget"
-msgstr "The Bootstrap 画像メタ ウィジェット"
+msgid "Claymoredesigns Image Meta Widget"
+msgstr "Claymoredesigns 画像メタ ウィジェット"
 
 #@ the-bootstrap
 #: inc/the-bootstrap-image-meta-widget.php:30
@@ -587,8 +587,8 @@ msgstr "ナビゲーション バーに検索フォームを追加します。"
 
 #@ the-bootstrap
 #: inc/theme-options.php:240
-msgid "The Bootstrap Theme Options"
-msgstr "The Bootstrap テーマ オプション"
+msgid "Claymoredesigns Theme Options"
+msgstr "Claymoredesigns テーマ オプション"
 
 #@ the-bootstrap
 #: inc/theme-options.php:285

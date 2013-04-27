@@ -4,8 +4,8 @@
  * Implementation of the Custom Header feature
  * http://codex.wordpress.org/Custom_Headers
  * 
- * @author		Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.2.4 - 07.04.2012
  */
 
@@ -20,7 +20,7 @@ if ( ! function_exists( 'the_bootstrap_content_nav' ) ) :
  * A pagination many developers buy (code) expensively with Plugins like
  * WP Pagenavi. No need! WordPress has it all!
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @return	void
@@ -64,7 +64,7 @@ if ( ! function_exists( 'the_bootstrap_comment_nav' ) ) :
 /**
  * Display navigation to next/previous comments pages when applicable
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.5.0 - 19.05.2012
  *
  * @return	void
@@ -86,7 +86,7 @@ if ( ! function_exists( 'the_bootstrap_posted_on' ) ) :
  * Prints HTML with meta information for the current post-date/time and author,
 * comment and edit link
 *
-* @author	Konstantin Obenland
+* @author	Clayton Phillipp
 * @since	1.0.0 - 05.02.2012
 *
 * @return	void
@@ -117,11 +117,11 @@ if ( ! function_exists( 'the_bootstrap_link_pages' ) ) :
 /**
  * Displays page links for paginated posts
  *
- * It's basically the wp_link_pages() function, altered to fit to the Bootstrap
+ * It's basically the wp_link_pages() function, altered to fit to Claymoredesigns
  * markup needs for paginations (unordered list).
  * @see		wp_link_pages()
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.1.0 - 09.03.2012
  *
  * @param	array	$args
@@ -187,7 +187,7 @@ if ( ! function_exists( 'the_bootstrap_navbar_searchform' ) ) :
 /**
  * Returns or echoes searchform mark up, specifically for the navbar.
 *
-* @author	Konstantin Obenland
+* @author	Clayton Phillipp
 * @since	1.5,0 - 14.05.2012
 * 
 * @param	bool	$echo	Optional. Whether to echo the form
@@ -210,7 +210,7 @@ endif;
 
 if ( ! function_exists( 'the_bootstrap_navbar_class' ) ) :
 /**
- * Adds The Bootstrap navbar classes
+ * Adds Claymoredesigns navbar classes
  *
  * @author	WordPress.org
  * @since	1.4.0 - 12.05.2012

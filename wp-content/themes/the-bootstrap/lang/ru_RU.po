@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: The Bootstrap v1.8.2\n"
+"Project-Id-Version: Claymoredesigns v1.8.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2012-08-19 08:23:09+0000\n"
@@ -357,7 +357,7 @@ msgstr "Следующее фото &rarr;"
 
 #: inc/the-bootstrap-image-meta-widget.php:28
 #@ the-bootstrap
-msgid "The Bootstrap Image Meta Widget"
+msgid "Claymoredesigns Image Meta Widget"
 msgstr "Метаинформация изображения"
 
 #: inc/the-bootstrap-image-meta-widget.php:30
@@ -568,7 +568,7 @@ msgstr "Вы не определена меню навигации для осн
 
 #: inc/the-bootstrap-gallery-widget.php:28
 #@ the-bootstrap
-msgid "The Bootstrap Gallery Widget"
+msgid "Claymoredesigns Gallery Widget"
 msgstr "Виджет Bootstrap галерее"
 
 #: inc/the-bootstrap-gallery-widget.php:30
@@ -664,7 +664,7 @@ msgstr ""
 
 #: inc/theme-options.php:290
 #@ the-bootstrap
-msgid "The Bootstrap Theme Options"
+msgid "Claymoredesigns Theme Options"
 msgstr ""
 
 #: inc/theme-options.php:338

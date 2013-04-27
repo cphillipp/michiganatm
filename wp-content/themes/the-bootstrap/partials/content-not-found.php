@@ -3,8 +3,8 @@
  *
  * The template for displaying a 'Nothing found' message.
  *
- * @author		Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.0.0 - 07.02.2012
  */
 

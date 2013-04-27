@@ -7,8 +7,8 @@
  * and the comment form. The actual display of comments is
  * handled by callbacks which are located in the functions.php file.
  *
- * @author		Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.0.0 - 05.02.2012
  */
 

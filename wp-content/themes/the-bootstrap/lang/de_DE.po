@@ -351,8 +351,8 @@ msgstr "N&auml;chstes Bild &raquo;"
 
 #: inc/the-bootstrap-image-meta-widget.php:28
 #@ the-bootstrap
-msgid "The Bootstrap Image Meta Widget"
-msgstr "The Bootstrap Bild Meta Widget"
+msgid "Claymoredesigns Image Meta Widget"
+msgstr "Claymoredesigns Bild Meta Widget"
 
 #: inc/the-bootstrap-image-meta-widget.php:30
 #@ the-bootstrap
@@ -587,8 +587,8 @@ msgstr "Suchformular der Navigationsleiste hinzuf&uuml;gen"
 
 #: inc/theme-options.php:289
 #@ the-bootstrap
-msgid "The Bootstrap Theme Options"
-msgstr "The Bootstrap Theme Optionen"
+msgid "Claymoredesigns Theme Options"
+msgstr "Claymoredesigns Theme Optionen"
 
 #: inc/theme-options.php:337
 #, php-format

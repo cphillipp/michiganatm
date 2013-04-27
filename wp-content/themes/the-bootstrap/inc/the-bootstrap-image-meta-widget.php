@@ -1,8 +1,8 @@
 <?php
 /** the-bootstrap-image-meta-widget.php
  *
- * @author	Konstantin Obenland
- * @package	The Bootstrap
+ * @author	Clayton Phillipp
+ * @package	Claymoredesigns
  * @since	1.1.0 - 08.03.2012
  */
 
@@ -17,7 +17,7 @@ class The_Bootstrap_Image_Meta_Widget extends WP_Widget {
 	/**
 	 * Constructor
 	 *
-	 * @author	Konstantin Obenland
+	 * @author	Clayton Phillipp
 	 * @since	1.1.0 - 08.03.2012
 	 * @access	public
 	 *
@@ -25,7 +25,7 @@ class The_Bootstrap_Image_Meta_Widget extends WP_Widget {
 	 */
 	public function __construct() {
 		
-		parent::__construct( 'the-bootstrap-image-meta', __( 'The Bootstrap Image Meta Widget', 'the-bootstrap' ), array(
+		parent::__construct( 'the-bootstrap-image-meta', __( 'Claymoredesigns Image Meta Widget', 'the-bootstrap' ), array(
 			'classname'		=>	'the-bootstrap-image-meta',
 			'description'	=>	__( 'Displays meta information on image attachment pages', 'the-bootstrap' )
 		) );
@@ -114,7 +114,7 @@ class The_Bootstrap_Image_Meta_Widget extends WP_Widget {
 	/**
 	 * Updates the widget settings
 	 *
-	 * @author	Konstantin Obenland
+	 * @author	Clayton Phillipp
 	 * @since	1.1.0 - 08.03.2012
 	 * @access	public
 	 *
@@ -135,7 +135,7 @@ class The_Bootstrap_Image_Meta_Widget extends WP_Widget {
 	/**
 	 * Displays the widget's settings form
 	 *
-	 * @author	Konstantin Obenland
+	 * @author	Clayton Phillipp
 	 * @since	1.1.0 - 08.03.2012
 	 * @access	public
 	 *

@@ -3,8 +3,8 @@
  *
  * Template Name: Home Page
  *
- * @author 	Konstantin Obenland
- * @package The Bootstrap
+ * @author 	Clayton Phillipp
+ * @package Claymoredesigns
  * @since	1.3.0	- 29.04.2012
  */
 

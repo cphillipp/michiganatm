@@ -1,8 +1,8 @@
 <?php
 /** functions.php
  *
- * @author		Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.0.0 - 05.02.2012
  */
 
@@ -89,7 +89,7 @@ add_action( 'after_setup_theme', 'the_bootstrap_setup' );
 
 
 /**
- * Returns the options object for The Bootstrap.
+ * Returns the options object for Claymoredesigns.
  *
  * @author	Automattic
  * @since	1.3.0 - 06.04.2012
@@ -105,7 +105,7 @@ function the_bootstrap_options() {
 
 
 /**
- * Returns the default options for The Bootstrap.
+ * Returns the default options for Claymoredesigns.
  *
  * @author	Automattic
  * @since	1.3.0 - 06.04.2012
@@ -126,7 +126,7 @@ function the_bootstrap_get_default_theme_options() {
 
 
 /**
- * Adds The Bootstrap layout classes to the array of body classes.
+ * Adds Claymoredesigns layout classes to the array of body classes.
  *
  * @author	WordPress.org
  * @since	1.3.0 - 06.04.2012
@@ -145,7 +145,7 @@ add_filter( 'body_class', 'the_bootstrap_layout_classes' );
 /**
  * Adds Custom Background support
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.2.5 - 11.04.2012
  *
  * @return	void
@@ -170,7 +170,7 @@ add_action( 'after_setup_theme', 'the_bootstrap_custom_background_setup' );
 /**
  * Register the sidebars.
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @return	void
@@ -229,7 +229,7 @@ add_action( 'widgets_init', 'the_bootstrap_widgets_init' );
 /**
  * Registration of theme scripts and styles
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @return	void
@@ -283,7 +283,7 @@ add_action( 'init', 'the_bootstrap_register_scripts_styles' );
 /**
  * Properly enqueue frontend scripts
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @return	void
@@ -299,7 +299,7 @@ add_action( 'wp_enqueue_scripts', 'the_bootstrap_print_scripts' );
  * 
  * Respond.js has to be loaded after Theme styles
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.7.0 - 11.06.2012
  *
  * @return	void
@@ -318,7 +318,7 @@ add_action( 'wp_head', 'the_bootstrap_print_ie_scripts', 11 );
 /**
  * Properly enqueue comment-reply script
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.4.0 - 08.05.2012
  *
  * @return	void
@@ -337,7 +337,7 @@ add_action( 'comment_form_before', 'the_bootstrap_comment_reply' );
  * Since 'tw-bootstrap' was registered as a dependency, it'll get enqueued
  * automatically
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @return	void
@@ -370,7 +370,7 @@ if ( ! function_exists( 'the_bootstrap_credits' ) ) :
  * Prints HTML with meta information for the current post-date/time and author,
  * comment and edit link
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.2.2 - 07.04.2012
  *
  * @return	void
@@ -389,7 +389,7 @@ endif;
 /**
  * Returns the blogname if no title was set.
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.1.0 - 18.03.2012
  *
  * @param	string	$title
@@ -512,7 +512,7 @@ add_filter( 'attachment_link', 'the_bootstrap_enhanced_image_navigation', 10, 2 
 /**
  * Displays comment list, when there are any
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.7.0 - 16.06.2012
  *
  * @return	void
@@ -553,7 +553,7 @@ add_action( 'comment_form_comments_closed', 'the_bootstrap_comments_list', 1 );
  * Echoes comments-are-closed message when post type supports comments and we're
  * not on a page
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.7.0 - 16.06.2012
  *
  * @return	void
@@ -569,7 +569,7 @@ add_action( 'comment_form_comments_closed', 'the_bootstrap_comments_closed' );
 /**
  * Filters comments_form() default arguments
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.7.0 - 16.06.2012
  *
  * @param	array	$defaults
@@ -600,7 +600,7 @@ if ( ! function_exists( 'the_bootstrap_comment' ) ) :
  *
  * Used as a callback by wp_list_comments() for displaying the comments.
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @param	object	$comment	Comment data object.
@@ -670,7 +670,7 @@ endif; // ends check for the_bootstrap_comment()
  * Adds markup to the comment form which is needed to make it work with Bootstrap
  * needs
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @param	string	$html
@@ -687,7 +687,7 @@ add_action( 'comment_form_top', 'the_bootstrap_comment_form_top' );
  * Adds markup to the comment form which is needed to make it work with Bootstrap
  * needs
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @param	string	$html
@@ -703,7 +703,7 @@ add_action( 'comment_form', 'the_bootstrap_comment_form' );
 /**
  * Custom author form field for the comments form
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @param	string	$html
@@ -729,7 +729,7 @@ add_filter( 'comment_form_field_author', 'the_bootstrap_comment_form_field_autho
 /**
  * Custom HTML5 email form field for the comments form
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @param	string	$html
@@ -755,7 +755,7 @@ add_filter( 'comment_form_field_email', 'the_bootstrap_comment_form_field_email'
 /**
  * Custom HTML5 url form field for the comments form
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @param	string	$html
@@ -779,7 +779,7 @@ add_filter( 'comment_form_field_url', 'the_bootstrap_comment_form_field_url');
  * Adjusts an attechment link to hold the class of 'thumbnail' and make it look
  * pretty
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @param	string	$link
@@ -800,7 +800,7 @@ add_filter( 'wp_get_attachment_link', 'the_bootstrap_get_attachment_link', 10, 6
 /**
  * Adds the 'hero-unit' class for extra big font on sticky posts
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @param	array	$classes
@@ -821,7 +821,7 @@ add_filter( 'post_class', 'the_bootstrap_post_classes' );
 /**
  * Callback function to display galleries (in HTML5)
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @param	string	$content
@@ -953,7 +953,7 @@ add_filter( 'post_gallery', 'the_bootstrap_post_gallery', 10, 2 );
 /**
  * HTML 5 caption for pictures
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @param	string	$empty
@@ -990,12 +990,12 @@ add_filter( 'img_caption_shortcode', 'the_bootstrap_img_caption_shortcode', 10, 
 /**
  * Returns a password form which dispalys nicely with Bootstrap
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.0.0 - 05.02.2012
  *
  * @param	string	$form
  *
- * @return	string	The Bootstrap password form
+ * @return	string	Claymoredesigns password form
  */
 function the_bootstrap_the_password_form( $form ) {
 	return '<form class="post-password-form form-horizontal" action="' . home_url( 'wp-pass.php' ) . '" method="post"><legend>'. __( 'This post is password protected. To view it please enter your password below:', 'the-bootstrap' ) . '</legend><div class="control-group"><label class="control-label" for="post-password-' . get_the_ID() . '">' . __( 'Password:', 'the-bootstrap' ) .'</label><div class="controls"><input name="post_password" id="post-password-' . get_the_ID() . '" type="password" size="20" /></div></div><div class="form-actions"><button type="submit" class="post-password-submit submit btn btn-primary">' . __( 'Submit', 'the-bootstrap' ) . '</button></div></form>';
@@ -1006,7 +1006,7 @@ add_filter( 'the_password_form', 'the_bootstrap_the_password_form' );
 /**
  * Modifies the category dropdown args for widgets on 404 pages
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.5.0 - 19.05.2012
  *
  * @param	array	$args
@@ -1031,7 +1031,7 @@ add_filter( 'widget_categories_dropdown_args', 'the_bootstrap_widget_categories_
 /**
  * Adds the .thumbnail class when images are sent to editor
  * 
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	2.0.0 - 29.08.2012
  * 
  * @param	string	$html
@@ -1078,11 +1078,11 @@ add_action( 'template_redirect', 'the_bootstrap_content_width' );
 /**
  * Returns the Theme version string
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.2.4 - 07.04.2012
  * @access	private
  *
- * @return	string	The Bootstrap version
+ * @return	string	Claymoredesigns version
  */
 function _the_bootstrap_version() {
 	

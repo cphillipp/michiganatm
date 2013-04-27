@@ -1,8 +1,8 @@
 <?php
 /** nav-menu-walker.php
  *
- * @author		Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.5.0 - 15.05.2012
  */
 
@@ -107,7 +107,7 @@ class The_Bootstrap_Nav_Walker extends Walker_Nav_Menu {
 /**
  * Adds the active CSS class
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.5.0 - 15.05.2012
  *
  * @param	array	$classes	Default class names

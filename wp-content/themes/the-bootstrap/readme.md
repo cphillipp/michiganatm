@@ -1,4 +1,4 @@
-# The Bootstrap
+# Claymoredesigns
 
 Contributors:		kobenland
 Tags:				black, blue, white, light, two-columns, left-sidebar, right-sidebar, flexible-width, custom-header, custom-background, threaded-comments, translation-ready, microformats, custom-menu, post-formats, sticky-posts
@@ -13,7 +13,7 @@ A WordPress Theme based on Bootstrap, from Twitter
 
 The Theme is 100% responsive - you do not need a seperate mobile-Theme with this layout.
 It has a seperate Sidebar just for image pages, to make it a special place to show your pictures!
-The Bootstrap is fully compatible with WordPress SEO by Yoast!
+Claymoredesigns is fully compatible with WordPress SEO by Yoast!
 
 Please note:
 
@@ -46,14 +46,14 @@ Currently available in:
 
 ## Installation
 
-1. Download The Bootstrap.
+1. Download Claymoredesigns.
 2. Unzip the folder into the `/wp-content/themes/` directory
 3. Activate the Theme through the 'Appearance' menu in WordPress
 
 
 ## Versioning
 
-For transparency and insight into my release cycle, and for striving to maintain backward compatibility, The Bootstrap - as all my WordPress APIs - will be maintained under the Semantic Versioning guidelines.
+For transparency and insight into my release cycle, and for striving to maintain backward compatibility, Claymoredesigns - as all my WordPress APIs - will be maintained under the Semantic Versioning guidelines.
 
 Releases will be numbered with the following format:
 

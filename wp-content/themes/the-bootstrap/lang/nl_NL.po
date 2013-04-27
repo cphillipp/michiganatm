@@ -365,8 +365,8 @@ msgstr "Volgende afbeelding &raquo;"
 
 #@ the-bootstrap
 #: inc/the-bootstrap-image-meta-widget.php:27
-msgid "The Bootstrap Image Meta Widget"
-msgstr "The Bootstrap Afbeelding Meta Widget"
+msgid "Claymoredesigns Image Meta Widget"
+msgstr "Claymoredesigns Afbeelding Meta Widget"
 
 #@ the-bootstrap
 #: inc/the-bootstrap-image-meta-widget.php:29

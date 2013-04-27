@@ -4,8 +4,8 @@
  * Implementation of the Custom Header feature
  * http://codex.wordpress.org/Custom_Headers
  * 
- * @author		Automattic, Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Automattic, Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.2.0 - 05.04.2012
  */
 

@@ -8,8 +8,8 @@
  * and that other 'pages' on your WordPress site will use a
  * different template.
  *
- * @author		Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.0.0 - 07.02.2012
  */
 

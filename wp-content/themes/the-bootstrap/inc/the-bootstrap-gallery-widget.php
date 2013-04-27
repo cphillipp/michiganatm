@@ -1,8 +1,8 @@
 <?php
 /** the-bootstrap-gallery-widget.php
  *
- * @author	Konstantin Obenland
- * @package	The Bootstrap
+ * @author	Clayton Phillipp
+ * @package	Claymoredesigns
  * @since	1.1.0 - 08.03.2012
  */
 
@@ -17,7 +17,7 @@ class The_Bootstrap_Gallery_Widget extends WP_Widget {
 	/**
 	 * Constructor
 	 *
-	 * @author	Konstantin Obenland
+	 * @author	Clayton Phillipp
 	 * @since	1.1.0 - 08.03.2012
 	 * @access	public
 	 *
@@ -25,7 +25,7 @@ class The_Bootstrap_Gallery_Widget extends WP_Widget {
 	 */
 	public function __construct() {
 		
-		parent::__construct( 'the-bootstrap-gallery', __( 'The Bootstrap Gallery Widget', 'the-bootstrap' ), array(
+		parent::__construct( 'the-bootstrap-gallery', __( 'Claymoredesigns Gallery Widget', 'the-bootstrap' ), array(
 			'classname'		=>	'the-bootstrap-gallery',
 			'description'	=>	__( 'Displays gallery images of a specified post with the Gallery post format.', 'the-bootstrap' )
 		) );
@@ -94,7 +94,7 @@ class The_Bootstrap_Gallery_Widget extends WP_Widget {
 	/**
 	 * Updates the widget settings
 	 *
-	 * @author	Konstantin Obenland
+	 * @author	Clayton Phillipp
 	 * @since	1.1.0 - 08.03.2012
 	 * @access	public
 	 *
@@ -115,7 +115,7 @@ class The_Bootstrap_Gallery_Widget extends WP_Widget {
 	/**
 	 * Displays the widget's settings form
 	 *
-	 * @author	Konstantin Obenland
+	 * @author	Clayton Phillipp
 	 * @since	1.1.0 - 08.03.2012
 	 * @access	public
 	 *

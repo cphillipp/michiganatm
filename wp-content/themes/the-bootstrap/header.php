@@ -3,8 +3,8 @@
  *
  * Displays all of the <head> section and everything up till </header>
  *
- * @author		Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.0 - 05.02.2012
  */
 

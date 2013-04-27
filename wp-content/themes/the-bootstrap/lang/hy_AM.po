@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: The Bootstrap Armenian Translation\n"
+"Project-Id-Version: Claymoredesigns Armenian Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
@@ -366,7 +366,7 @@ msgstr "Հաջորդ նկարը &rarr;"
 
 #@ the-bootstrap
 #: inc/the-bootstrap-image-meta-widget.php:27
-msgid "The Bootstrap Image Meta Widget"
+msgid "Claymoredesigns Image Meta Widget"
 msgstr "Նակրների մետատվյալներ"
 
 #@ the-bootstrap

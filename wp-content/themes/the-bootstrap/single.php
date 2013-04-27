@@ -3,8 +3,8 @@
  *
  * The Template for displaying all single posts.
  *
- * @author		Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.0.0 - 05.02.2012
  */
 

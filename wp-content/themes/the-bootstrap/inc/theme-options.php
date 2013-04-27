@@ -1,10 +1,10 @@
 <?php
 /** theme-options.php
  * 
- * The Bootstrap Theme Options
+ * Claymoredesigns Theme Options
  *
- * @author		Automattic, Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Automattic, Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.3.0 - 06.04.2012
  */
 
@@ -132,7 +132,7 @@ add_filter( 'option_page_capability_the_bootstrap_options', 'the_bootstrap_optio
 /**
  * Add theme options page to the admin bar.
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.3.0 - 06.04.2012
  * 
  * @param	WP_Admin_Bar	$wp_admin_bar
@@ -218,7 +218,7 @@ function the_bootstrap_settings_field_checkbox( $options ) {
 /**
  * Renders a field with radio buttons.
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.4.0 - 12.05.2012
  *
  * @return	void
@@ -240,7 +240,7 @@ function the_bootstrap_settings_field_radio( $args ) {
 
 
 /**
- * Renders the Settings page for The Bootstrap.
+ * Renders the Settings page for Claymoredesigns.
  *
  * @author	Automattic
  * @since	1.3.0 - 06.04.2012
@@ -251,7 +251,7 @@ function the_bootstrap_theme_options_render_page() {
 	?>
 	<div class="wrap">
 		<?php screen_icon(); ?>
-		<h2><?php esc_html_e( 'The Bootstrap Theme Options', 'the-bootstrap' ); ?></h2>
+		<h2><?php esc_html_e( 'Claymoredesigns Theme Options', 'the-bootstrap' ); ?></h2>
 		<?php settings_errors(); ?>
 
 		<div id="poststuff">
@@ -320,7 +320,7 @@ function the_bootstrap_theme_options_validate( $input ) {
  * @copyright	Joost de Valk
  * @license		GPLv2 or later
  *
- * @author		Joost de Valk, Konstantin Obenland
+ * @author		Joost de Valk, Clayton Phillipp
  * @since		1.3.0 - 06.04.2012
  *
  * @return		void
@@ -330,7 +330,7 @@ function the_bootstrap_donate_box() {
 	<div id="formatdiv" class="postbox">
 		<h3 class="hndle"><span><?php esc_html_e( 'Help spread the word!', 'the-bootstrap' ); ?></span></h3>
 		<div class="inside">
-			<p><strong><?php printf( _x( 'Want to help make this Theme even better? All donations are used to improve %1$s, so donate $20, $50 or $100 now!', 'Plugin Name', 'the-bootstrap' ), esc_html('The Bootstrap ') ); ?></strong></p>
+			<p><strong><?php printf( _x( 'Want to help make this Theme even better? All donations are used to improve %1$s, so donate $20, $50 or $100 now!', 'Plugin Name', 'the-bootstrap' ), esc_html('Claymoredesigns ') ); ?></strong></p>
 			<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 				<input type="hidden" name="cmd" value="_s-xclick">
 				<input type="hidden" name="hosted_button_id" value="542W6XT4PLT4L">
@@ -359,7 +359,7 @@ add_action( 'the_bootstrap_side_info_column', 'the_bootstrap_donate_box', 1 );
  * @copyright	Joost de Valk
  * @license		GPLv2 or later
  * 
- * @author		Joost de Valk, Konstantin Obenland
+ * @author		Joost de Valk, Clayton Phillipp
  * @since		1.3.0 - 06.04.2012
  *
  * @return		void
@@ -398,7 +398,7 @@ add_action( 'the_bootstrap_side_info_column', 'the_bootstrap_feed_box' );
  * @copyright	Joost de Valk
  * @license		GPLv2 or later
  * 
- * @author	Joost de Valk, Konstantin Obenland
+ * @author	Joost de Valk, Clayton Phillipp
  * @since	1.3.0 - 06.04.2012
  * @access	private
  * 

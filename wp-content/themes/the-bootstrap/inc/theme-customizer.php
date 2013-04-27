@@ -4,8 +4,8 @@
  * Implementation of the Theme Customizer for Themes
  * @link		http://ottopress.com/2012/how-to-leverage-the-theme-customizer-in-your-own-themes/
  * 
- * @author		Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.4.0 - 05.05.2012
  */
 
@@ -13,7 +13,7 @@
 /**
  * Registers the theme setting controls with the Theme Customizer
  * 
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.4.0 - 05.05.2012
  * 
  * @param	WP_Customize	$wp_customize
@@ -97,7 +97,7 @@ add_action( 'customize_register', 'the_bootstrap_customize_register' );
 /**
  * Adds controls to change settings instantly
  *
- * @author	Konstantin Obenland
+ * @author	Clayton Phillipp
  * @since	1.4.0 - 05.05.2012
  *
  * @return	void

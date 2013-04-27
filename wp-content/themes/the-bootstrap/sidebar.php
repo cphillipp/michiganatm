@@ -1,8 +1,8 @@
 <?php
 /** sidebar.php
  *
- * @author		Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.0.0	- 05.02.2012
  */
 

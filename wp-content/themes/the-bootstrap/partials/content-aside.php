@@ -5,8 +5,8 @@
  *
  * Learn more: http://codex.wordpress.org/Post_Formats
  *
- * @author		Konstantin Obenland
- * @package		The Bootstrap
+ * @author		Clayton Phillipp
+ * @package		Claymoredesigns
  * @since		1.0 - 07.02.2012
  */
 

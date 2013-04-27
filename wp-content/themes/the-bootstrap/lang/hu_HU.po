@@ -347,8 +347,8 @@ msgstr "Következő kép &raquo;"
 
 #@ the-bootstrap
 #: inc/the-bootstrap-image-meta-widget.php:28
-msgid "The Bootstrap Image Meta Widget"
-msgstr "The Bootstrap Bild Meta Widget"
+msgid "Claymoredesigns Image Meta Widget"
+msgstr "Claymoredesigns Bild Meta Widget"
 
 #@ the-bootstrap
 #: inc/the-bootstrap-image-meta-widget.php:30
@@ -583,8 +583,8 @@ msgstr "Keresés navigációs sorhoz adása."
 
 #@ the-bootstrap
 #: inc/theme-options.php:289
-msgid "The Bootstrap Theme Options"
-msgstr "The Bootstrap Theme Opciók"
+msgid "Claymoredesigns Theme Options"
+msgstr "Claymoredesigns Theme Opciók"
 
 #@ the-bootstrap
 #: inc/theme-options.php:337
