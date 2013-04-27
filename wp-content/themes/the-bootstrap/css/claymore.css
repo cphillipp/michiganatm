@@ -43,4 +43,6 @@ body.home .green 										{display:block;}
 .navbar-inverse .navbar-inner 							{background:#000;}
 body.home .green										{display:none;}
 .banner 												{display:none;}
+.shortcode1-3 											{width:100%; margin-right:0%; float:none;}
+.shortcode1-3 img 										{margin:0 auto;}
 }
