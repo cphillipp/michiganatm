@@ -7,6 +7,9 @@
  */
 
 				tha_footer_before(); ?>
+				</div><!-- #page -->
+		</div><!-- .container -->
+			<div class="green-footer">
 				<footer id="colophon" role="contentinfo" class="span12">
 					<div id="footer-sidebar" class="secondary">
 						<div id="footer-sidebar1">
@@ -43,8 +46,7 @@
 					<?php tha_footer_bottom(); ?>
 				</footer><!-- #colophon -->
 				<?php tha_footer_after(); ?>
-			</div><!-- #page -->
-		</div><!-- .container -->
+			</div><!-- .green-footer -->
 	<!-- <?php printf( __( '%d queries. %s seconds.', 'the-bootstrap' ), get_num_queries(), timer_stop(0, 3) ); ?> -->
 	<?php wp_footer(); ?>
 	</body>
