@@ -1098,7 +1098,7 @@ function _the_bootstrap_version() {
 }
 
 // CUSTOM SHORTCODE
-function custom_col() {
+function custom_col($content = null) {
 
 	// Code
 	return '<div class="shortcode1-3"></div>';
