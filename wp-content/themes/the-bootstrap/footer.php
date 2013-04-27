@@ -8,6 +8,22 @@
 
 				tha_footer_before(); ?>
 				<footer id="colophon" role="contentinfo" class="span12">
+					<div id="footer-sidebar" class="secondary">
+						<div id="footer-sidebar1">
+						<?php
+						if(is_active_sidebar('footer-sidebar-1')){
+						dynamic_sidebar('footer-sidebar-1');
+						}
+						?>
+						</div>
+						<div id="footer-sidebar2">
+						<?php
+						if(is_active_sidebar('footer-sidebar-2')){
+						dynamic_sidebar('footer-sidebar-2');
+						}
+						?>
+						</div>
+					</div>
 					<?php tha_footer_top(); ?>
 					<div id="page-footer" class="well clearfix">
 						<?php wp_nav_menu( array(
