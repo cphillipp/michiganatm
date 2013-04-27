@@ -1098,10 +1098,15 @@ function _the_bootstrap_version() {
 }
 
 // CUSTOM SHORTCODE
-function custom_col( $atts, $content = null ) {
+function custom_col_third( $atts, $content = null ) {
 	return '<div class="shortcode1-3">' . $content . '</div>';
 }
-add_shortcode( 'column', 'custom_col' );
+add_shortcode( 'column', 'custom_col_third' );
+
+function custom_col_half( $atts, $content = null ) {
+	return '<div class="shortcode1-2">' . $content . '</div>';
+}
+add_shortcode( 'column', 'custom_col_half' );
 
 
 /* End of file functions.php */
