@@ -1,0 +1,43 @@
+body 													{position:relative;}
+#footer-sidebar 										{margin:0 auto; width:500px; overflow:hidden;}
+#footer-sidebar1 										{float:left; width:250px;}
+#footer-sidebar2 										{float:left; width:250px;}
+body>.container 										{margin:0 auto;}
+body.home .page-header 									{display:none;}
+body.home h1 											{clear:none;}
+#page 													{padding:0; background:transparent;}
+#branding 												{height:142px; line-height:142px;}
+#header-image 											{margin:0; float:left;}
+#access 												{float:right; margin:52px 0 0;}
+.navbar 												{margin:0;}
+.navbar-inverse .navbar-inner 							{background:none; border:none; -webkit-box-shadow:0 0 0 #fff; -moz-box-shadow:0 0 0 #fff; box-shadow:0 0 0 #fff;}
+.navbar-inverse .brand, 
+.navbar-inverse .nav>li>a 								{color:#1cb434; text-shadow:0 0 0 #FFF; text-transform:uppercase; font-weight:bold;}
+.navbar-inverse .nav>li>a:focus, 
+.navbar-inverse .nav>li>a:hover 						{color:#21784f;}
+.navbar-inverse .nav .active>a, 
+.navbar-inverse .nav .active>a:hover, 
+.navbar-inverse .nav .active>a:focus 					{color:#21784f; background:transparent; -webkit-box-shadow:0 0 0 #fff; -moz-box-shadow:0 0 0 #fff; box-shadow:0 0 0 #fff;}
+.green 													{display:none; margin:0; padding:0; width:100%; height:370px; position:absolute; top:142px; z-index:-1; background:url('../img/green-back.png') repeat-x; border-top:3px solid #b7b7b7; border-bottom:3px solid #b7b7b7; -webkit-box-shadow:inset 0 0 40px #000; -moz-box-shadow:inset 0 0 40px #000; box-shadow:inset 0 0 40px #000;}
+body.home .green 										{display:block;}
+.green .top-point 										{margin:0 0 0 -218.5px; padding:0; width:437px; height:33px; position:absolute; top:-33px; left:50%; background:url('../img/top-point.png') no-repeat;}
+.green .bottom-point									{margin:0 0 0 -371.5px; padding:0; width:743px; height:54px; position:absolute; bottom:-54px; left:50%; background:url('../img/bottom-point.png') no-repeat;}
+.banner 												{overflow:hidden;}
+.atm 													{margin:19px 20px 50px 90px;}
+.shortcode1-3 											{width:31.33%; margin-right:2%; float:left;}
+@media (min-width: 1200px)								{
+
+}
+@media (max-width: 979px) and (min-width: 768px)		{
+#branding 												{height:auto;}
+#access 												{float:none; margin:0; clear:both;}
+.navbar-inverse .navbar-inner 							{background:#000;}
+.atm 													{margin:19px 20px 50px 90px; width:242px;}
+}
+@media (max-width: 767px)								{
+#branding 												{height:auto;}
+#access 												{float:none; margin:0; clear:both;}
+.navbar-inverse .navbar-inner 							{background:#000;}
+body.home .green										{display:none;}
+.banner 												{display:none;}
+}
