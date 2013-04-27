@@ -1,3 +1,6 @@
 #footer-sidebar 	{margin:0 auto; width:500px; overflow:hidden;}
 #footer-sidebar1 	{float:left; width:250px;}
 #footer-sidebar2 	{float:left; width:250px;}
+body>.container 	{margin:0 auto;}
+#page 				{padding:0;}
+#branding 			{height:100px;}
