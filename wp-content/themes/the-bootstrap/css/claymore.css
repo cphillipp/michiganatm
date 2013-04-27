@@ -20,8 +20,10 @@ body>.container 										{margin:0 auto;}
 @media (max-width: 979px) and (min-width: 768px)		{
 #branding 												{height:auto;}
 #access 												{float:none; margin:0; clear:both;}
+.navbar-inverse .navbar-inner 							{background:#000;}
 }
 @media (max-width: 767px)								{
 #branding 												{height:auto;}
 #access 												{float:none; margin:0; clear:both;}
+.navbar-inverse .navbar-inner 							{background:#000;}
 }
