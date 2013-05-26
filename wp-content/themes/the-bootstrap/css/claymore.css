@@ -39,7 +39,7 @@ body.page .green .bottom-point 							{display:none;}
 @media (max-width: 979px) and (min-width: 768px)		{
 #branding 												{height:auto;}
 .navbar-inverse .navbar-inner 							{background:#000;}
-.hide 													{display:none;}
+.special-hide 											{display:none;}
 }
 @media (max-width: 767px)								{
 #branding 												{height:auto;}
